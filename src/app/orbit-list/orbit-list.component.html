@@ -7,7 +7,7 @@
         <th>Orbit Type</th>
         <th>Launch Date</th>
     </tr>
-    <tr *ngFor="let satellite of satellites">
+    <tr *ngFor="let satellite of satellites" class="stripes">
         <td>{{satellite.name}}</td>
         <!-- Why does this work for styling? -->
         <td [class.warning]="satellite.shouldShowWarning()">{{satellite.type}}</td>

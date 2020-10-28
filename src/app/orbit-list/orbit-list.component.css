@@ -27,3 +27,7 @@ td {
 	margin: 5px 10px;
 	padding: 6px;
 }
+
+.stripes:nth-child(even) {
+	background-color: hsl(172, 65%, 75%);
+}
